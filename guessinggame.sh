@@ -3,7 +3,7 @@
 function ask {
   echo "Enter the number of files in current directory:"
   read guess
-  files=$(ls -1 | wc -1)
+  files=$(ls -1 | wc -l)
 }
 
 ask
